@@ -1,0 +1,34 @@
+.Navbar {
+  margin-bottom: 16px;
+  color: #fff;
+  background-color: #1976d2;
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  z-index: 1100;
+}
+
+.Nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.Nav__link {
+  padding: 20px 8px;
+  font-weight: 500;
+  text-transform: capitalize;
+  text-decoration: none;
+  display: block;
+  font-size: 20px;
+  color: #fff;
+}
+
+.Nav__link:hover {
+  background-color: #1666b6;
+}
+
+.Nav__link--active {
+  /* color: #ff5722; */
+  color: #ffb300;
+}

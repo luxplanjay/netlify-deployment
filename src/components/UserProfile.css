@@ -1,0 +1,9 @@
+.UserProfile {
+  display: flex;
+  align-items: flex-start;
+}
+
+.UserProfile-image {
+  flex-shrink: 0;
+  margin-right: 24px;
+}
