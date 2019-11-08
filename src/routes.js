@@ -2,7 +2,7 @@ import Home from './pages/Home';
 import Blog from './pages/Blog';
 import Profile from './pages/Profile';
 
-export default [
+const routes = [
   {
     path: '/',
     exact: true,
@@ -19,3 +19,5 @@ export default [
     component: Profile
   }
 ];
+
+export default routes;
