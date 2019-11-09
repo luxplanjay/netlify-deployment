@@ -2,7 +2,7 @@ import React from 'react';
 
 const Home = () => (
   <>
-    <h1>Aloha!</h1>
+    <h1>Welcome!</h1>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod enim itaque
       sed nostrum voluptate, dolorum excepturi inventore pariatur a quam harum
